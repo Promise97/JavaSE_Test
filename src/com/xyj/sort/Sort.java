@@ -118,6 +118,7 @@ public class Sort {
         }
     }
 
+
     private static void heapInsert(int[] array, int index) {
         while (array[index] > array[(index - 1) / 2]){
             swap(array, index, (index - 1) / 2);
