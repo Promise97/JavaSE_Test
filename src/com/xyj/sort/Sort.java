@@ -125,9 +125,7 @@ public class Sort {
             index = (index - 1) / 2;
         }
     }
-    public static void test(){
 
-    }
     public static void main(String[] args){
         Arrays.stream(a).forEach(System.out::print);
         heapSort(a);
